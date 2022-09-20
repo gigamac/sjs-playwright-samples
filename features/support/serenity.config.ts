@@ -37,7 +37,8 @@ BeforeAll(async () => {
 
         // Configure Serenity/JS actors to use Playwright browser
         actors: new Actors(browser, {
-            baseURL:                    'https://the-internet.herokuapp.com/',
+//            baseURL:                    'https://the-internet.herokuapp.com/',
+            baseURL:                    'http://localhost:9005',
             defaultNavigationTimeout:   timeouts.playwright.defaultNavigationTimeout.inMilliseconds(),
             defaultTimeout:             timeouts.playwright.defaultTimeout.inMilliseconds(),
         }),

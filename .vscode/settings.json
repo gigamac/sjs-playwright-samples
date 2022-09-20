@@ -1,0 +1,10 @@
+{
+    "cucumberautocomplete.steps": [
+        "features/step-definitions/*.ts"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cSpell.words": [
+        "ttsc",
+        "webdriverio"
+    ]
+}
